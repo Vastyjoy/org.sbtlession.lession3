@@ -63,7 +63,7 @@ public class Main {
     private static void task5(String filePath, String delimiter) {
 
         try {
-            List<String> list = ParserFile.parseToListRevIter(filePath, " ");
+            List<String> list = ParserFile.parseToListRevIter(filePath, delimiter);
             Iterator<String> iterator = list.iterator();
             while (iterator.hasNext()) {
                 System.out.println(iterator.next());
