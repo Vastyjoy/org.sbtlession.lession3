@@ -68,8 +68,7 @@ public class Main {
             while (iterator.hasNext()) {
                 System.out.println(iterator.next());
             }
-        } catch (IOException x) {
-        }
+        } catch (IOException x) {}
     }
 
     //6. Вывести на экран строки, заданные пользователем.
@@ -98,10 +97,9 @@ public class Main {
     }
 
     public static void main(String[] arg) {
-        String filePath = "C:\\Users\\Alex\\IdeaProjects\\" +
-                "Lession3\\src\\main\\java\\org\\sbtscholl\\tihonov\\input";
+        String filePath = "C:\\Users\\Alex\\IdeaProjects\\org.sbtlession.lession3\\src\\main\\java\\org\\sbtscholl\\tihonov\\input";
 
-        task6(filePath, " ");
+        task5(filePath, " ");
 
 
     }

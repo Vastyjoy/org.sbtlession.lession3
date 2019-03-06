@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Lession3" />
+        <module name="org.sbtlession.lession3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="10" />
